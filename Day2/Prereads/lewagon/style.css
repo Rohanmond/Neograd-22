@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-color: rgb(240,240,240);
+    color: rgb(20, 20,20);
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: rgb(237,110,105);
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: none;
+    color: green;
+}
+#banner{
+    background-image: url("https://picsum.photos/1000/600");
+    padding: 150px 0;
+    background-size: cover;
+    text-align: center;
+    color: rgb(4, 10, 4);
+}
+#banner p{
+    font-size: 24px;
+    font-weight: lighter;
+    /* opacity: 0.6; */
+}
+.mycard{
+    /* padding: 40px; */
+    text-align: center;
+}
+#footer{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+#footer a{
+    font-size: 20px;
+    color: gray;
+}
+#footer a:hover{
+    color: greenyellow;
+}
