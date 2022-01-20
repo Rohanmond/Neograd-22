@@ -1,0 +1,30 @@
+.card-one{
+    width: 20rem;
+}
+.card-footer-one{
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-header-one{
+    padding-left: 1rem;
+}
+.card-text-one{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+[id='toggle-heart-one'] {
+    position: absolute;
+    left: -100vw;
+  }
+  [for='toggle-heart-one'] {
+    color: #aab8c2;
+    font-size: 1.7rem;
+    padding: 1rem;
+  }
+  
+  [id='toggle-heart-one']:checked + label {
+    color: #e2264d;
+  }

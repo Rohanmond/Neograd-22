@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.card{
+  width: 20rem;
+  background-color: white;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  height: 6rem;
+  display: flex;
+}
+
+.body-heading{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image{
+  width:7rem;
+  height:100%;
+  object-fit:cover;
+  border-radius: 5px;
+}
+.btn {
+  padding: 8px 15px;
+  color: blue;
+  background: white;
+  /* background: linear-gradient(0deg, white 0%,rgb(247, 248, 252) 100%); */
+  font-size: 1rem;
+  border: none;
+  
+}
+.btn:before {
+  height: 0%;
+  width: 2px;
+}
+.btn:hover {
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(216, 227, 240, 0.5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(231, 243, 247, 0.4);
+    border-radius: 4px;
+}
+.btn:active {
+            transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            /* Lowering the shadow */
+}
+.footer {
+  padding: 0 1rem;
+  display: flex;
+  height: 3.5rem;
+  align-items: center;
+  border-top: 1px solid #ededed;
+  justify-content: space-evenly;
+}
+
+[id='toggle-heart'] {
+  position: absolute;
+  left: -100vw;
+}
+[for='toggle-heart'] {
+  color: #aab8c2;
+  font-size: 1.4rem;
+  padding: 8px 10px;
+}
+
+[id='toggle-heart']:checked + label {
+  color: #e2264d;
+}

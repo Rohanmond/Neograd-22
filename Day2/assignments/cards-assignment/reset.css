@@ -1,0 +1,11 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: cover;
+    object-position: top center;
+}
